@@ -1,0 +1,107 @@
+﻿@model WebAppStudent.Models.StudentListVM
+
+
+@{
+    /**/
+
+    ViewBag.Title = "Search";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("Search", "Student", FormMethod.Get))
+{
+    <input type="text" name="search" id="search" />
+
+}
+
+<br />
+
+
+<label>Total Students:</label> @ViewBag.TotalStudents
+
+<br />
+<p>
+    @Html.ActionLink("Create New", "Add")
+</p>
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Students.First().StudentName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Students.First().Age)
+        </th>
+        <th></th>
+    </tr>
+
+    @*@if (Model.Students.Count() == 0)
+        {
+            <tr>
+                <td colspan="3" style="color:red">
+                    No Match any document
+                </td>
+            </tr>
+
+        }
+
+        else
+        {*@
+
+    @foreach (var item in Model.Students)
+
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.StudentId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.StudentId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.StudentId })
+            </td>
+
+        </tr>
+    }
+
+
+    </table>
+        <div class="pagination">
+            Page :
+            @for (int p = 1; p <= Model.TotalPages; p++)
+            {
+                <a class="@( p == Model.CurrentPage ? "current" : "")"
+                   href=" @Url.Action("Index","Student",new { search= Model.Search,page = p  })">
+                    @p
+                </a>
+            }
+
+        </div>
+
+        
+    
+
+    @*}*@
+
+
+
+
+
+@*<div class="pagination">
+        @for (int p =1; p <= TotalPages; p++ )
+        {
+            <a class="@(p == ViewBag.CurrentPage ? "current " : "" ) " href="@Url.Action("Student" , "Index"  , new {Page = p})" > @p </a>
+
+        }
+    </div>*@
+
+@*@Html.PagedListPager(Model, Page => Url.Action("Index", new { Page, search = Request.QueryString["search"] }))*@
+
+@*@Html.TextBoxFor(x=>x.Search)
+    <input type="submit" value="search"/>*@

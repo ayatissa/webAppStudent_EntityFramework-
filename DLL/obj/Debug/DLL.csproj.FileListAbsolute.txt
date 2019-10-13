@@ -1,0 +1,9 @@
+E:\repos\WebAppStudent\DLL\bin\Debug\DLL.dll
+E:\repos\WebAppStudent\DLL\bin\Debug\DLL.pdb
+E:\repos\WebAppStudent\DLL\bin\Debug\DAL.dll
+E:\repos\WebAppStudent\DLL\bin\Debug\DAL.pdb
+E:\repos\WebAppStudent\DLL\obj\Debug\DLL.csprojAssemblyReference.cache
+E:\repos\WebAppStudent\DLL\obj\Debug\DLL.csproj.CoreCompileInputs.cache
+E:\repos\WebAppStudent\DLL\obj\Debug\DLL.csproj.CopyComplete
+E:\repos\WebAppStudent\DLL\obj\Debug\DLL.dll
+E:\repos\WebAppStudent\DLL\obj\Debug\DLL.pdb

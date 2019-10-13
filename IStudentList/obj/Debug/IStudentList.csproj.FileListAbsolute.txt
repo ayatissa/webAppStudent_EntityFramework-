@@ -1,0 +1,6 @@
+E:\repos\WebAppStudent\IStudentList\obj\Debug\IStudentList.csprojAssemblyReference.cache
+E:\repos\WebAppStudent\IStudentList\obj\Debug\IStudentList.csproj.CoreCompileInputs.cache
+E:\repos\WebAppStudent\IStudentList\bin\Debug\IStudentList.dll
+E:\repos\WebAppStudent\IStudentList\bin\Debug\IStudentList.pdb
+E:\repos\WebAppStudent\IStudentList\obj\Debug\IStudentList.dll
+E:\repos\WebAppStudent\IStudentList\obj\Debug\IStudentList.pdb

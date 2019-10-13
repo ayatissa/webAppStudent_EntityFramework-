@@ -1,0 +1,15 @@
+E:\repos\WebAppStudent\DLL\bin\Debug\DLL.dll
+E:\repos\WebAppStudent\DLL\bin\Debug\DLL.pdb
+E:\repos\WebAppStudent\DLL\bin\Debug\DAL.dll
+E:\repos\WebAppStudent\DLL\bin\Debug\DAL.pdb
+E:\repos\WebAppStudent\DLL\obj\Debug\BLL.csprojAssemblyReference.cache
+E:\repos\WebAppStudent\DLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\repos\WebAppStudent\DLL\obj\Debug\BLL.csproj.CopyComplete
+E:\repos\WebAppStudent\DLL\obj\Debug\DLL.dll
+E:\repos\WebAppStudent\DLL\obj\Debug\DLL.pdb
+E:\repos\WebAppStudent\DLL\bin\Debug\DLL.dll.config
+E:\repos\WebAppStudent\DLL\bin\Debug\EntityFramework.dll
+E:\repos\WebAppStudent\DLL\bin\Debug\EntityFramework.SqlServer.dll
+E:\repos\WebAppStudent\DLL\bin\Debug\DAL.dll.config
+E:\repos\WebAppStudent\DLL\bin\Debug\EntityFramework.xml
+E:\repos\WebAppStudent\DLL\bin\Debug\EntityFramework.SqlServer.xml
